@@ -1,0 +1,105 @@
+Body {
+  background-color: #AEB7B3;
+  font-family: roboto;
+  color: #577399;
+  font-size: 16px;
+  line-height: normal;
+}
+
+h1, h2 {
+  font-family: roboto;
+  color: #577399;
+  margin: 0 0 20px 0;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0;
+  font-size: 24px;
+}
+
+.fab {
+  color: #577399;
+  margin: 8px;
+}
+
+.fab:hover {
+  color: #6D7477;
+  margin: 8px;
+}
+
+a {
+  color: #577399;
+  text-decoration: none;
+}
+
+.container {
+  width: 600px;
+  background-color: white;
+  margin: 24px auto;
+  padding: 16px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.btn-dark {
+  width: 200px;
+  background-color: #577399;
+  margin: 8px auto;
+  padding: 8px;
+  text-align: center;
+  border-radius: 8px;
+  cursor:pointer;
+}
+
+.btn-dark a {
+  color: white;
+}
+
+.btn-dark:hover {
+  width: 200px;
+  background-color: #6D7477;
+  margin: 8px auto;
+  padding: 8px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.img-circ {
+  border-radius: 50%;
+  filter: grayscale(50%);
+}
+
+.img-ytb {
+  border-radius: 8px;
+  filter: grayscale(80%);
+  width: 150px;
+  margin: 0 8px;
+}
+
+.img-ytb:hover {
+  filter: grayscale(5%);
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  .img-ytb {
+    margin: 8px;
+  }
+
+}
